@@ -1,0 +1,438 @@
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.padding {
+  padding: 5% 7%;
+}
+
+.background {
+  background: url(https://edunext-main-storage-cf.edunexttechnologies.com/gnpspunjabibagh/school___static/1697106076895_activitiesbg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* home page */
+
+/* navbar */
+.nav-item {
+  margin: 0 20px;
+}
+
+/* carousel */
+/* .carousel-item{
+  min-width:100%;
+  height: 650px;
+} */
+
+.carousel-image {
+  width: 100%;
+  height: 650px;
+}
+
+.box {
+
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 15px;
+}
+
+
+/* school section */
+.school-intro {
+  /* background: url(https://edunext-main-storage-cf.edunexttechnologies.com/gnpspunjabibagh/school___static/1697106076895_activitiesbg.png) no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* background: linear-gradient(to right, #00bfff, #ffd700); */
+  background: #f7f7f7;
+}
+
+.school-intro h1 {
+  text-transform: uppercase;
+}
+
+.school-image {
+  width: 100%;
+}
+
+/* display box */
+
+#display.row {
+  --bs-gutter-x: 0;
+}
+
+#display i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.display-container {
+  margin: 0;
+  text-align: left;
+  transform: translateY(0px);
+  transition: transform 0.6s linear;
+}
+
+.display-box p {
+  opacity: 0.5;
+  transition: opacity 0.3s linear;
+}
+
+.display-container:hover {
+  transform: translateY(-30px);
+}
+
+.display-container:hover p {
+  opacity: 1;
+}
+
+.display-box {
+  padding: 20px;
+  color: #ffff;
+  height: 100%;
+}
+
+.green {
+  background: #10c45c !important
+}
+
+.yellow {
+  background: #fdc735 !important;
+}
+
+.blue {
+  background: #307ad5 !important
+}
+
+.pink {
+  background: #e948ae !important
+}
+
+.light {
+  background-color: #48a7d4 !important
+}
+
+.orange {
+  background-color: #f28f1e !important;
+}
+
+.display-box h4 {
+  text-transform: uppercase;
+}
+
+/* feature section */
+#feature {
+  text-align: center;
+  color: #ffff;
+}
+
+#feature a{
+  color: #fff;
+}
+
+#feature .row {
+  --bs-gutter-x: 1.5rem;
+}
+
+#feature i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.feature-container {
+  margin: auto;
+  border-radius: 15px;
+}
+
+.feature-box {
+  margin: 10px 5px;
+  padding: 20px;
+  text-align: center;
+  transform: translateY(0px);
+  transition: transform 0.6s linear;
+}
+
+.feature-box p {
+  opacity: 0.5;
+  transition: opacity 0.3s linear;
+}
+
+.feature-box:hover {
+  transform: translateY(-14px);
+
+}
+
+.feature-box:hover p {
+  opacity: 1;
+}
+
+
+/* Announcements section */
+#announcement {
+  margin-top: 5%;
+}
+
+.announcement-container {
+  /* width: 300px; */
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.announcement-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #00f;
+  color: #fff;
+  padding: 5px;
+  text-align: left;
+}
+
+
+.announcement-marquee ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+}
+
+.announcement-marquee li {
+  font-size: 16px;
+}
+
+.announcement-image,
+marquee {
+  height: 300px;
+}
+
+
+/* Contactus section */
+#contact.row {
+  --bs-gutter-x: 0;
+}
+
+.contact-us-container {
+  padding: 20px;
+  /* background: linear-gradient(to right, #ffd700, #00bfff); */
+  background: #f7f7f7;
+}
+
+.contact-info,
+.quick-enquiry {
+  background: white;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.contact-info h2,
+.contact-info h3,
+.quick-enquiry h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.quick-enquiry form {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-enquiry input,
+.quick-enquiry textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.quick-enquiry button {
+  padding: 10px;
+  background: #00bfff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+.quick-enquiry button:hover {
+  background: #007acc;
+}
+
+
+/* aboutus section */
+#about-us.row {
+  --bs-gutter-x: 0;
+}
+
+#about-us p,
+#principalpage p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* footer section */
+#footer {
+  padding: 2%;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer-color {
+  background-color: #960a0a;
+}
+
+.copy-footer {
+  font-size: 20px;
+}
+
+/* container section */
+.container-box {
+  margin: 20px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  height: 90%;
+  background: #F2F2F4;
+}
+
+.container-img {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+/* list-item section*/
+.list-item h1 {
+  margin-bottom: 20px;
+}
+
+.list-item li {
+  line-height: 40px;
+}
+
+
+/* about page */
+#aboutpage h1,
+#achivementpage h1,
+#gallerypage h1,
+#facultypage h1,
+#admissioncriteriapage h1,
+#admissionprocesspage h1,
+#methodologpage h1,
+#primarypage h1,
+#principalpage h1,
+#secondarypage h1,
+#studentcouncilpage h1,
+#studentlifepage h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.history h2,
+p {
+  margin: 20px 0;
+}
+
+.toggle-container {
+  text-align: center;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.not-active-box {
+  background-color: #f28f1e !important;
+}
+
+.active-box {
+  background-color: #960a0a;
+}
+
+.content-box {
+  padding: 2%;
+  background-color: #f7f7f7;
+  border: 2px solid #fff;
+}
+
+/* principle page */
+#principalpage {
+  height: 100vh;
+}
+
+.message {
+  margin: 50px auto;
+}
+
+.float-image {
+  float: left;
+  width: 35%;
+  margin-right: 30px;
+}
+
+/* faculty page */
+
+#facultypage {
+  background: #f7f7f7;
+  /* color: #FFf; */
+}
+
+#facultypage .carousel-item {
+  padding: 7% 15%;
+}
+
+.faculty-image {
+  width: 10%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  margin: 3% 2%;
+}
+
+/* primary page */
+#primarypage,
+#secondarypage,
+#seniorpage,
+#methodologpage,
+#contactuspage,
+#admissioncriteriapage,
+#admissionprocesspage,
+#studentcouncilpage,
+#studentlifepage {
+  background: #f7f7f7;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+
+  .school-image {
+    margin-top: 20px;
+  }
+
+  .announcement-container {
+    margin-bottom: 20px;
+  }
+
+  .feature-container {
+    margin: 20px auto;
+  }
+
+  .float {
+    margin-right: 0;
+  }
+}
