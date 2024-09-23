@@ -16,7 +16,7 @@ export default function DisplaySection() {
                 <h4>CBSE Curriculum</h4>
                 <p>We use a blend of traditional and modern teaching techniques to cater to different learning styles</p>
             </DisplayBox>
-            <DisplayBox to="/sps-life" icon={<i className="fa-brands fa-web-awesome"></i>} className="col-lg-3 display-container pink" boxClass="display-box">
+            <DisplayBox to="/sps-life" icon={<i className="fa-solid fa-globe"></i>} className="col-lg-3 display-container pink" boxClass="display-box">
                 <h4>Facilities</h4>
                 <p>We use a blend of traditional and modern teaching techniques to cater to different learning styles</p>
             </DisplayBox>

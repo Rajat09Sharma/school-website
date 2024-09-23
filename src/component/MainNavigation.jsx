@@ -57,7 +57,7 @@ export default function MainNavigation() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/faculty">Faculty</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link active"} to="/faculty">Faculty</NavLink>
                             </li>
                             <li className="nav-item dropdown">
                                 <NavLink className={({ isActive }) => isActive ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle"} role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,10 +69,10 @@ export default function MainNavigation() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/gallery">Gallery</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link active"} to="/gallery">Gallery</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/contact-us">Contact Us</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link active"} to="/contact-us">Contact Us</NavLink>
                             </li>
                         </ul>
                     </div>

@@ -24,6 +24,15 @@ a{
   margin: 0 20px;
 }
 
+.nav-link{
+  scale: 1;
+  transition: 0.2s;
+}
+
+.nav-link:hover{
+  scale: 0.9;
+}
+
 /* carousel */
 /* .carousel-item{
   min-width:100%;
