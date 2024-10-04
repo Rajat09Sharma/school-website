@@ -19,7 +19,6 @@ export default function MainNavigation() {
         const updateWindowDimensions = () => {
             size = window.innerWidth;
         };
-        console.log(size);
         if (size > 992) {
             navLinks.forEach((link) => {
                 link.removeAttribute("data-toggle");
