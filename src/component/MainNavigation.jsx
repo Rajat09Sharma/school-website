@@ -128,18 +128,3 @@ export default function MainNavigation() {
         </>
     )
 }
-
-
-{/* <li className="nav-item dropdown">
-<div className="dropdown show">
-    <NavLink className={({ isActive }) => isActive ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle"} to="/about-us" role="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        About Us
-    </NavLink>
-
-    <div className="dropdown-menu" aria-labelledby="about-us">
-        <NavLink className="dropdown-item" to="/about-us">About SPS</NavLink>
-        <NavLink className="dropdown-item" to="/principle-message">Principle&#39;s Message</NavLink>
-        <NavLink className="dropdown-item" to="/achievements">Our Achivements</NavLink>
-    </div>
-</div>
-</li> */}
