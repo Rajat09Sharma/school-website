@@ -1,8 +1,9 @@
 # 🏫 School Website
 
-This is the official website for **Arunodaya Public School, Karli**.  
+This is the official website for **Springdale Public School**.  
 It provides a modern and responsive online platform with details about the school, courses, teachers, announcements, and more.  
 The project showcases **UI/UX design skills** and attention to detail.
+ [🌐 Live Link](https://schooll-website.netlify.app/)
 
 ---
 
@@ -23,7 +24,7 @@ The project showcases **UI/UX design skills** and attention to detail.
 
 ## 📖 Project Overview
 
-This project aims to give **Arunodaya Public School, Karli** a professional online presence.  
+This project aims to give **Springdale Public School** a professional online presence.  
 The website includes essential sections like a contact form, quick enquiry system, school account details, teacher profiles, and a notice board for announcements.
 
 ---
@@ -50,18 +51,11 @@ The website includes essential sections like a contact form, quick enquiry syste
 - **React Router DOM** – Page Navigation  
 
 ---
-
+ 
 ## 📸 Screenshots
-
-| Homepage | Courses Page |
-|----------|-------------|
-| ![Homepage Screenshot](./screenshots/homepage.png) | ![Courses Screenshot](./screenshots/courses.png) |
-
-| Teachers Section | Notice Board |
-|------------------|-------------|
-| ![Teachers Screenshot](./screenshots/teachers.png) | ![Notice Board Screenshot](./screenshots/notice.png) |
-
-> 💡 Replace the `./screenshots/...` paths with your actual screenshot images.
+**Springdale Public School**
+(![Screenshot_2-9-2025_11833_schooll-website netlify app](https://github.com/user-attachments/assets/fbb55773-13a8-40a1-a3e6-fa8eac59c678)
+) 
 
 ---
 
@@ -85,7 +79,7 @@ Follow these steps to run the project locally:
 
 Clone the repository:
 
-git clone https://github.com/yourusername/school-website.git
+git clone https://github.com/Rajat09Sharma/school-website.git
 cd school-website
 
 
@@ -98,28 +92,12 @@ Start the development server:
 
 npm start
 
-r
-
 ## 🧑‍🎨 About This Project
 
 This website focuses on delivering a clean, user-friendly interface that represents the school’s brand while ensuring great usability across devices.
 It demonstrates skills in React, Bootstrap, and modern UI/UX design principles.
 
-## 🤝 Contributing
-
-Contributions are welcome!
-To contribute:
-
-Fork this repository.
-
-Create a new branch: git checkout -b feature-name.
-
-Make your changes and commit them.
-
-Push to your branch and create a Pull Request.
-
-##✨ Author
-
+## ✨ Author
 ### Rajat Sharma
-🔗 GitHub
- | LinkedIn
+[🔗 GitHub](https://github.com/Rajat09Sharma/Rajat09Sharma)
+ | [LinkedIn](https://www.linkedin.com/in/rajat-sharma09)
